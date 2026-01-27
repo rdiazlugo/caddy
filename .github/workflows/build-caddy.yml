@@ -37,7 +37,7 @@ jobs:
         with:
           images: |
             ghcr.io/${{ github.repository }}
-            docker.io/${{ secrets.DOCKERHUB_USERNAME }}/${{ github.repository }}
+            docker.io/reinaldo122/caddy
           tags: |
             type=ref,event=branch
             type=sha,prefix={{branch}}-
