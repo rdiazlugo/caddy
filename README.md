@@ -21,6 +21,12 @@ Pull from GitHub Container Registry:
 docker pull ghcr.io/rdiazlugo/caddy
 ```
 
+Or from Docker Hub:
+
+```bash
+docker pull reinaldo122/caddy
+```
+
 ## Build Locally
 
 ```bash
